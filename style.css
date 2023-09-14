@@ -86,8 +86,7 @@ main {
   color: rgba(0, 0, 0, 0.596);
 }
 
-.btn {
-  display: flex;
+.btn a {
   color: #f7ededbd;
   background-color: rgb(37, 21, 21);
   padding: 8px 20px;
@@ -102,7 +101,7 @@ main {
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-  width: 50%;
+  width: 25%;
 }
 
 #about {
