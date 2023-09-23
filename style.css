@@ -45,7 +45,7 @@
 }
 
 .cart-icon {
-  height: 20px;
+  height: 30px;
 }
 
 main {
@@ -105,7 +105,6 @@ main {
 }
 
 #about {
-  background-color: burlywood;
   padding: 70px 0;
   max-width: 1200px;
   display: flex;
@@ -116,4 +115,98 @@ main {
 #about p {
   padding: 20px;
   max-width: 80%;
+}
+
+#advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.advantages {
+  background-color: rgb(155, 120, 74);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 300px;
+}
+
+.advantages img {
+  height: 50px;
+}
+
+.advantages-container {
+  display: flex;
+  gap: 20px;
+}
+
+#contactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  padding: 110px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact-info {
+  font-weight: 800;
+  border-bottom: #0e0a0abd;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 40px;
+}
+
+.contact img {
+  height: 20px;
+}
+
+.contact span {
+  color: rgb(56, 51, 51);
+}
+
+.redes {
+  display: flex;
+  gap: 15px;
+  max-width: 1200px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 50px 15px 15px;
+  background-color: burlywood;
+  text-decoration: underline;
 }
