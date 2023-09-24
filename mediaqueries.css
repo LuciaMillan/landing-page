@@ -1,1 +1,46 @@
+@media only screen and (max-width: 992px) {
+  .navbar {
+    display: none;
+  }
 
+  #hero {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .hero-info {
+    width: 100%;
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .hero-info h1 {
+    font-size: 38px;
+  }
+
+  .hero-info p {
+    text-align: center;
+  }
+
+  .img-hero {
+    margin-top: 25px;
+  }
+
+  #about {
+    margin: 70px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advantages-container {
+    flex-direction: column;
+  }
+
+  .card-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
