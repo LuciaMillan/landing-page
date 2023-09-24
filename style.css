@@ -175,9 +175,6 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 5px;
-}
-
-.contact-info {
   font-weight: 800;
   border-bottom: #0e0a0abd;
 }
@@ -195,12 +192,6 @@ main {
 
 .contact span {
   color: rgb(56, 51, 51);
-}
-
-.redes {
-  display: flex;
-  gap: 15px;
-  max-width: 1200px;
 }
 
 footer {

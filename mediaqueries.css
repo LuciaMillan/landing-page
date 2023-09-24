@@ -23,13 +23,60 @@
     text-align: center;
   }
 
-  .img-hero {
+  .hero-img {
     margin-top: 25px;
   }
 
   #about {
     margin: 70px 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advantages-container {
+    flex-direction: column;
+  }
+
+  .card-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .navbar {
+    display: none;
+  }
+
+  #hero {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .hero-info {
+    width: 100%;
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .hero-info h1 {
+    font-size: 16px;
+  }
+
+  .hero-info p {
+    text-align: center;
+  }
+
+  .hero-img {
+    margin-top: 15px;
+  }
+
+  #about {
+    margin: 35px 0;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
