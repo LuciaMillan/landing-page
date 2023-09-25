@@ -13,6 +13,7 @@
     width: 100%;
     margin-right: 0;
     align-items: center;
+    text-align: center;
   }
 
   .hero-info h1 {
@@ -25,6 +26,12 @@
 
   .hero-img {
     margin-top: 25px;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   #about {
@@ -53,6 +60,7 @@
   #hero {
     flex-direction: column;
     align-items: center;
+
     margin-bottom: 0;
   }
 
