@@ -64,10 +64,18 @@
 
   .hero-info h1 {
     font-size: 16px;
+    justify-content: center;
+    text-align: center;
   }
 
   .hero-info p {
     text-align: center;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .hero-img {
